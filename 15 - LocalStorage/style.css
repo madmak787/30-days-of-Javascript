@@ -79,3 +79,19 @@ h2 {
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.btn-group .btn {
+	border: none;
+	background-color: #41d4ec;
+	color: #fff;
+	margin: 10px 0;
+	border-radius: 3px;
+	padding: 5px;
+	text-indent: 0;
+}
+.btn-group .btn.uncheck {
+	background-color: #414cec;
+}
+.btn-group .btn.delete {
+	background-color: #ec4141;
+}
